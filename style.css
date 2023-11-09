@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, #161616, #2c2c2c);
+}
+
+.driver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drive{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    background-color: #2e3239;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: courier new;
+    text-shadow: 2px 2px 5px black;
+}
+
+header{
+    background-image: linear-gradient(to right, #161616, #2c2c2c);
+    display: flex;
+    text-align: center;
+    height: 9vh;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.616);
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-image: url('images/drivebackgroundreal.jpg');
+    margin: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.672);
+}
+
+p{
+    margin: 110px;
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+}
